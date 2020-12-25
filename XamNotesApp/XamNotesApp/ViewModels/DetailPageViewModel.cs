@@ -2,7 +2,7 @@
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace XamNotesApp
+namespace XamNotesApp.ViewModels
 {
     public class DetailPageViewModel : INotifyPropertyChanged
     {

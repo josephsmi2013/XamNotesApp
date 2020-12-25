@@ -1,5 +1,5 @@
 ﻿using System;
-namespace XamNotesApp
+namespace XamNotesApp.AppConstants
 {
 	public class Constants
 	{

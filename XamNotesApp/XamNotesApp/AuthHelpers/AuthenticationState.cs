@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Auth;
 
-namespace XamNotesApp
+namespace XamNotesApp.AuthHelpers
 {
     public class AuthenticationState
     {

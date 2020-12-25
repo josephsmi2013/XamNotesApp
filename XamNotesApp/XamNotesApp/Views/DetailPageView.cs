@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms;
+using XamNotesApp.ViewModels;
 
-namespace XamNotesApp
+namespace XamNotesApp.Views
 {
     public class DetailPageView : ContentPage
     {

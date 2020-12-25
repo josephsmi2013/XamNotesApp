@@ -1,6 +1,8 @@
 ﻿using Xamarin.Forms;
+using XamNotesApp.Models;
+using XamNotesApp.ViewModels;
 
-namespace XamNotesApp
+namespace XamNotesApp.Views
 {
     public class MainPageView : ContentPage
     {

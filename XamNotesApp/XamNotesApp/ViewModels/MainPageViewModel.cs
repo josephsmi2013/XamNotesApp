@@ -1,8 +1,10 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
 using Xamarin.Forms;
+using XamNotesApp.Models;
+using XamNotesApp.Views;
 
-namespace XamNotesApp
+namespace XamNotesApp.ViewModels
 {
     public class MainPageViewModel : INotifyPropertyChanged
     {

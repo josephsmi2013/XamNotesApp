@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using XamNotesApp.Views;
 
 namespace XamNotesApp
 {
@@ -7,8 +8,7 @@ namespace XamNotesApp
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage(new MainPageView());
+            MainPage = new NavigationPage(new LoginPageView());
         }
 
         protected override void OnStart()
