@@ -29,7 +29,7 @@ namespace XamNotesApp
                     NoteText = SelectedNote.Text
                 };
 
-                await Application.Current.MainPage.Navigation.PushAsync(new DetailPage(detailViewModel));
+                await Application.Current.MainPage.Navigation.PushAsync(new DetailPageView(detailViewModel));
 
                 SelectedNote = null;
             });

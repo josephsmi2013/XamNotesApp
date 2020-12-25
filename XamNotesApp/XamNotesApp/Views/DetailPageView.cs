@@ -2,9 +2,9 @@
 
 namespace XamNotesApp
 {
-    public class DetailPage : ContentPage
+    public class DetailPageView : ContentPage
     {
-        public DetailPage(DetailPageViewModel viewModel)
+        public DetailPageView(DetailPageViewModel viewModel)
         {
             BindingContext = viewModel;
 
